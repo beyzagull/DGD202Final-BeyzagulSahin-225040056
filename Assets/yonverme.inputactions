@@ -1,0 +1,78 @@
+{
+    "name": "yonverme",
+    "maps": [
+        {
+            "name": "haraket",
+            "id": "375c16b9-60ff-4860-9b94-0a6b85b45fbb",
+            "actions": [
+                {
+                    "name": "harekett",
+                    "type": "Value",
+                    "id": "5f3378f9-5f51-4e86-84ea-636e3ee2126d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "9e96b8b3-5f85-43eb-9325-db6b1604f25e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "harekett",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "526e61c5-e336-4781-afab-04c7420524b6",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "harekett",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "8812c382-18b2-4e72-b89f-b9e30832de90",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "harekett",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "62a28662-5a43-406e-8523-0ee80c8ed460",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "harekett",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b79d7ca1-2abf-4863-8170-b83e7ff503e3",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "harekett",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
